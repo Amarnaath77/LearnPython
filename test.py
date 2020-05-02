@@ -1,6 +1,5 @@
 import sys
-import os
-import math
+
 import requests
 
 print(sys.executable)
@@ -10,3 +9,4 @@ print(r.status_code)
 d = input("Your Name: ")
 test = "Test"
 print("Hello", d)
+print(r.ok)
